@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:id="@+id/medicine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/medicine_name"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Medicine Trade Name (Gen Name)"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/buttonDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="75dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    card_view:srcCompat="@drawable/ic_delete_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:id="@+id/med_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/med_input"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/dosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/dosage"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:id="@+id/invetory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/inventory"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/expiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/expiry"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/availableAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/available_at"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

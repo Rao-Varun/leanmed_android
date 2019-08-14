@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="edu.uta.leanmed.activities.MakeABoxZonePreviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/make_a_box_operation"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="154" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/box_id"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textBoxId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/recdon_zone"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="75dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:text="TextView"
+                android:textColor="@color/colorBlack"
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonChooseMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="@string/choose_rmedicine_button" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

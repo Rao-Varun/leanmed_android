@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/forgotPwContent"
+    tools:context="edu.uta.leanmed.activities.UserDetailActivity">
+    <android.support.v7.widget.CardView
+        android:id="@+id/user_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/user_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorWhite"
+                android:text="@string/user_details"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/user_name"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/user_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingTop="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlack"
+                android:text="@string/user_type"
+                />
+
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlack"
+                android:text="@string/prompt_email"
+                />
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlack"
+                android:text="@string/prompt_contact"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingTop="4dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:text="@string/status"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/zone_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/medicine"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/zone_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorWhite"
+                android:text="@string/zone_details"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/zoneId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/zone_id"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/zoneName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/zone_name"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/zoneEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/zone_email"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/deny"
+            android:textColor="@color/colorWhite"
+            android:text="@string/deny"
+            android:background="@color/colorAccent"
+            android:padding="8dp"
+            android:layout_margin="8dp"/>
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/submit"
+            android:textColor="@color/colorWhite"
+            android:text="@string/approve"
+            android:background="@color/colorBlue"
+            android:padding="8dp"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</LinearLayout>

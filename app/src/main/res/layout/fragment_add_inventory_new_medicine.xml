@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uta.leanmed.activities.AddInventoryNewMedicineFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/add_new_med_title"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="154" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textGenricName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="52dp"
+                        android:text="@string/generic_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etGenericName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
+                        android:inputType="textPersonName|text" />
+
+                    <TextView
+                        android:id="@+id/textTradeName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/trade_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etTradeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress" />
+
+                    <TextView
+                        android:id="@+id/textMedicineInput"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/med_input"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etMedInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textDosage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/dosage"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etDosage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/textWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/weight"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/etWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:id="@+id/buttonAddNewMed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginEnd="8dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            tools:text="@string/add_medicine_btn" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

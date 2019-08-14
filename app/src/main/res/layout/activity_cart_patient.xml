@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uta.leanmed.activities.CartPatientActivity">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/patient_details"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="32sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/patient_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:hint="@string/prompt_first_name"
+                    android:inputType="textPersonName"
+                    android:layout_weight="1"
+                    android:singleLine="true" />
+                <EditText
+                    android:id="@+id/lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:hint="@string/prompt_last_name"
+                    android:inputType="textPersonName"
+                    android:layout_weight="1"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/etpassword1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="@string/prompt_contact"
+                android:inputType="textPhonetic"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="@string/prompt_address"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:hint="@string/prompt_city"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:hint="@string/prompt_state"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:hint="@string/prompt_country"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/birthday"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:focusable="false"
+                android:clickable="true"
+                android:inputType="date"
+                android:hint="@string/date_of_birth"/>
+            <Button
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBlue"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/uploadPrescription"
+                android:text="@string/upload_prescription"
+                android:theme="@style/BtnStyle"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/discard"
+                    android:id="@+id/discard"
+                    android:layout_weight="1"
+                    android:theme="@style/BtnStyle"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/submit_request"
+                    android:layout_weight="1"
+                    android:id="@+id/submit"
+                    android:theme="@style/BtnStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

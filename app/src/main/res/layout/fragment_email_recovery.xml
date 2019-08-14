@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uta.leanmed.activities.EmailRecoveryFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rRecoverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/forgot_pass"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:text="Don't worry we got you covered"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/etpassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub_title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="8dp"
+            android:ems="10"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_recover_password"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etpassword1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="127dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="@string/recover_pass"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_recover_password"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/login_return"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</RelativeLayout>

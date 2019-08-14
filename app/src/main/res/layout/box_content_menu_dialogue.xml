@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="154" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textEditOperation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/box_content_edit"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textDeleteOperation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/box_content_delete"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

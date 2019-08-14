@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">LeanMed</string>
+    <string name="app_title">LeanMed</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">contraseña</string>
+    <string name="prompt_confirm_password">Confirmar contraseña</string>
+    <string name="prompt_address">Dirección</string>
+    <string name="prompt_city">Ciudad</string>
+    <string name="prompt_state">Estado</string>
+    <string name="prompt_country">País</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="error_empty_email">Introduzca la dirección de correo electrónico</string>
+    <string name="error_invalid_email">Esta dirección de correo electrónico no es válida</string>
+    <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
+    <string name="error_invalid_contact">Este contacto no es válido</string>
+    <string name="error_incorrect_password">Usuario / contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_cart">Carro</string>
+    <string name="title_requests">Solicitudes pendientes</string>
+    <string name="title_history">Historia</string>
+    <string name="title_info">Información</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="forgot_pass">Se te olvidó tu contraseña?</string>
+    <string name="recover_pass">Recuperar contraseña</string>
+    <string name="login_return">Volver al inicio de sesión</string>
+    <string name="forgot_pass_message">Por favor revisa tu correo</string>
+    <string name="register_status">El usuario ha sido registrado, pendiente de administración.</string>
+    <string name="register_failed_status">Registro fallido</string>
+    <string name="inactive_user">El usuario está inactivo en este momento, contacte a administración</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_contact">Teléfono</string>
+    <string name="prompt_recDon">RecDon</string>
+    <string name="prompt_getDon">GetDon</string>
+    <string name="select_zone">Seleccione Zona</string>
+    <string name="error_invalid_confirm_password">Las contraseñas no coinciden</string>
+    <string name="prompt_select_zone">Seleccione Zona</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select">Seleccionar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="change_password">Cambia la contraseña</string>
+    <string name="change_contact">Cambiar contacto</string>
+    <string name="language_preference">Preferencia de idioma</string>
+    <string name="prompt_select_language">Seleccione el idioma</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="prompt_select_contact">Actualizar contacto</string>
+    <string name="update">Actualizar</string>
+    <string name="prompt_select_password">Actualiza contraseña</string>
+    <string name="prompt_admin">Administración</string>
+    <string name="app_version">Versión: 0.1</string>
+    <string name="title_filter">Filtrar</string>
+    <string name="new_user">Nuevo usuario? Registrar aquí</string>
+    <string name="expiry">Expiración: </string>
+    <string name="inventory">Inventario: </string>
+    <string name="dosage">Dosificación: </string>
+    <string name="med_input">Entrada med: </string>
+    <string name="available_at">Zona: </string>
+    <string name="unit">Unidades: </string>
+    <string-array name="inventoryNums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="inventory_details">Detalles del inventario</string>
+    <string name="generic_name">Nombre generico:</string>
+    <string name="trade_name">Nombre comercial:</string>
+    <string name="weight">Peso</string>
+    <string name="medicine_type">Tipo de medicina:</string>
+    <string name="add_medicine_btn">Añadir medicina</string>
+    <string name="medicine_details">Detalles de la medicina</string>
+    <string name="box_id">ID de caja: </string>
+    <string name="zone_details">Detalles de la zona</string>
+    <string name="zone_id">ID: </string>
+    <string name="zone_name">Nombre: </string>
+    <string name="zone_email">Zone Email: </string>
+    <string name="zone_country">País: </string>
+    <string name="zone">Zona:</string>
+    <string name="cart_error">La cantidad no puede ser más que el inventario</string>
+    <string name="proceed">Proceder</string>
+    <string name="user_selection">Selección de usuario</string>
+    <string name="patient_details">Detalles del paciente</string>
+    <string name="upload_prescription">Subir prescripción</string>
+    <string name="discard">Descarte</string>
+    <string name="submit_request">Enviar peticion</string>
+    <string name="date_of_birth">Fecha de nacimiento</string>
+    <string name="prompt_last_name">Apellido</string>
+    <string name="prompt_first_name">Nombre de pila</string>
+    <string name="discard_title">Solicitud de descarte</string>
+    <string name="discard_detail">¿Estás seguro de que deseas eliminar esta solicitud? Se borrarán los detalles del carrito.</string>
+    <string name="please_wait_dailog">Por favor espera...</string>
+    <string name="disabled">Discapacitado</string>
+    <string name="pending">Pendiente</string>
+    <string name="active">Activo</string>
+    <string name="search_user">Buscar en Userve</string>
+    <string name="user_name_identity">Nombre de usuario (Identidad)</string>
+    <string name="user_details">Detalles de usuario</string>
+    <string name="user_name">Nombre de usuario: </string>
+    <string name="user_type">Tipo de usuario: </string>
+    <string name="status">Estado:</string>
+    <string name="approve">Aprobar</string>
+    <string name="disable">Inhabilitar</string>
+    <string name="deny">Negar</string>
+    <string name="user_denied">El uso está denegado y no podrá acceder a la aplicación.</string>
+    <string name="user_updated">Usuario actualizado</string>
+    <string name="request_detail">Detalle de solicitud</string>
+    <string name="created_by">Creado por:</string>
+    <string name="created_date">Fecha de creación:</string>
+    <string name="requested_quantity">Cantidad requerida:</string>
+    <string name="enter_new_password">Introduzca nueva contraseña</string>
+    <string name="password_change_succesfull">Cambio de contraseña exitosol</string>
+    <string name="password_change_unsuccesfull">¡Uy! Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="enter_otp">Entrar en OTP</string>
+    <string name="prompt_otp">OTP</string>
+    <string name="submit_otp">Enviar OTP</string>
+    <string name="error_invalid_otp">OTP inválida</string>
+    <string name="add_new_med_title">Añadir nueva medicina</string>
+    <string name="donor_name">Nombre del donante</string>
+    <string name="donor_phone">Número de teléfono del donante</string>
+    <string name="donation_date">Fecha de donación:</string>
+    <string name="add_new_donor_title">Añadir nuevo donante</string>
+    <string name="add_donor_button">Añadir donante</string>
+    <string name="choose_medicine">Elegir medicina</string>
+    <string name="choose_existing_medicine">Elija un medicamento existente</string>
+    <string name="create_medicine_profile">Crear un nuevo perfil de medicina.</string>
+    <string name="select_inventory_operation">Seleccione una operación de inventario</string>
+    <string name="update_inventory_operation">Añadir medicina al inventario</string>
+    <string name="make_a_box_operation">Hacer una caja</string>
+    <string name="error_choose_date_of_expiry">Elegir fecha de caducidad.</string>
+    <string name="error_choose_date_of_donation">Elija fecha de donación</string>
+    <string name="button_next">siguiente</string>
+
+    <string name="choose_donor">Elegir donante</string>
+    <string name="choose_existing_donor">Elija un donante existente</string>
+    <string name="create_donor_profile">Crear un nuevo perfil de donante</string>
+
+    <string name="donor_details">Detalles del donante</string>
+    <string name="submit_button">enviar</string>
+
+    <string name="choose_recdon_zone_button">Elige Recdon</string>
+    <string name="recdon_zone">Recdon Zona:</string>
+    <string name="choose_rmedicine_button">Elegir medicina</string>
+
+    <string name="choose_dest_user">Recdon Volunteer:</string>
+    <string name="none">nada</string>
+    <string name="Done">Hecho</string>
+    <string name="box_content_edit">Editar</string>
+    <string name="box_content_delete">Borrar</string>
+    <string name="accept">Aceptar</string>
+    <string name="reject">rechazar</string>
+    <string name="request_comment">Por qué se rechaza esta solicitud?</string>
+    <string name="choose_box">Elija una caja existente</string>
+    <string name="create_box">Crear una nueva caja</string>
+    <string name="comment">Comentarios:</string>
+
+    <string name="dest_zone">Zona de destino:</string>
+
+
+    <string name="history">historia</string>
+    <string name="box_history">historia de la caja</string>
+    <string name="request_history">historial de solicitudes</string>
+
+    <string name="error_unit_value">El valor unitario debe ser mayor que 0 y menor que el valor de inventario</string>
+    <string name="delete_box_title">Eliminar cuadro</string>
+    <string name="delete_box">¿Seguro que quieres eliminar este cuadro %s ?</string>
+    <string name="delete_boxcontent_title">Eliminar medicina</string>
+    <string name="delete_boxcontent">¿Está seguro de que desea eliminar este medicamento %s ?</string>
+    <string name="delete">borrar</string>
+
+    <string name="item_count">Recuento de elementos</string>
+
+
+</resources>

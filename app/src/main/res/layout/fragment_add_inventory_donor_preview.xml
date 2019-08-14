@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uta.leanmed.activities.AddInventoryDonorPreviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/add_new_donor_title"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="154" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <TextView
+                        android:id="@+id/textDonorName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donor_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textDonorPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donor_phone"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/donation_date"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="18sp" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/textDonationDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TextView"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="18sp"
+                            tools:text="@tools:sample/date/ddmmyy" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <TextView
+                        android:id="@+id/textError"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/error_choose_date_of_donation"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <Button
+                            android:id="@+id/buttonSubmit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/button_next" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

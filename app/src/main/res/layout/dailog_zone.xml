@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/dailog_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    <TextView
+        android:id="@+id/title_dailog_zone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/prompt_select_zone"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+
+        <RadioGroup
+            android:id="@+id/add_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+        </RadioGroup>
+    </ScrollView>
+    <Button
+            android:id="@+id/buttonSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:theme="@style/BtnStyle"
+            android:text="@string/select" />
+
+</LinearLayout>

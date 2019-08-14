@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">LeanMed</string>
+    <string name="app_title">LeanMed</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_city">City</string>
+    <string name="prompt_state">State</string>
+    <string name="prompt_country">Country</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_empty_email">Enter email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_contact">This contact is invalid</string>
+    <string name="error_incorrect_password">User/password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_search">Search</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_requests">Pending Requests</string>
+    <string name="title_history">History</string>
+    <string name="title_info">Info</string>
+    <string name="title_activity_register">Register</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="recover_pass">Recover Password</string>
+    <string name="login_return">Return to Login</string>
+    <string name="forgot_pass_message">Please check your mail</string>
+    <string name="register_status">User has been registered, pending with admin</string>
+    <string name="register_failed_status">Registration failed</string>
+    <string name="inactive_user">User is inactive at the moment, Contact admin</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_contact">Phone</string>
+    <string name="prompt_recDon">RecDon</string>
+    <string name="prompt_getDon">GetDon</string>
+    <string name="select_zone">Select Zone</string>
+    <string name="error_invalid_confirm_password">Passwords does not match</string>
+    <string name="prompt_select_zone">Select Zone</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_contact">Change Contact</string>
+    <string name="language_preference">Language Preference</string>
+    <string name="prompt_select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="prompt_select_contact">Update Contact</string>
+    <string name="update">Update</string>
+    <string name="prompt_select_password">Update Password</string>
+    <string name="prompt_admin">Admin</string>
+    <string name="app_version">Version: 0.1</string>
+    <string name="title_filter">filter</string>
+    <string name="new_user">New User? Register here</string>
+    <string name="expiry">Expiry: </string>
+    <string name="inventory">Inventory: </string>
+    <string name="dosage">Dosage: </string>
+    <string name="med_input">Med Input: </string>
+    <string name="available_at">Zone: </string>
+    <string name="unit">Units: </string>
+    <string-array name="inventoryNums">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="inventory_details">Inventory Details</string>
+    <string name="generic_name">Generic Name:</string>
+    <string name="trade_name">Trade Name:</string>
+    <string name="medicine_type">Medicine Type:</string>
+    <string name="weight">Weight:</string>
+    <string name="add_medicine_btn">Add Medicine</string>
+
+    <string name="box_id">Box ID: </string>
+    <string name="zone_details">Zone Details</string>
+    <string name="zone_id">Zone ID: </string>
+    <string name="zone_name">Zone Name: </string>
+    <string name="zone_email">Zone Email: </string>
+    <string name="zone_country">Zone Country: </string>
+    <string name="zone">Zone:</string>
+    <string name="cart_error">Quantity cannot be more than inventory</string>
+    <string name="proceed">Proceed</string>
+    <string name="user_selection">User Selection</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="discard">Discard</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="discard_title">Discard Request</string>
+    <string name="discard_detail">Are you sure you want to delete this request? It will delete the cart details</string>
+    <string name="please_wait_dailog">Please wait...</string>
+    <string name="disabled">Disabled</string>
+    <string name="pending">Pending</string>
+    <string name="active">Active</string>
+    <string name="search_user">Search User</string>
+    <string name="user_name_identity">User Name (Identity)</string>
+    <string name="user_details">User Details</string>
+    <string name="user_name">User Name: </string>
+    <string name="user_type">User Type:</string>
+    <string name="status">Status:</string>
+    <string name="approve">Approve</string>
+    <string name="disable">Disable</string>
+    <string name="deny">Deny</string>
+    <string name="user_denied">Use is denied and wont be able to access the app</string>
+    <string name="user_updated">User updated</string>
+    <string name="request_detail">Request Details</string>
+    <string name="created_by">Created By:</string>
+    <string name="created_date">Created Date:</string>
+    <string name="requested_quantity">Requested quantity:</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="password_change_succesfull">Password Change Succesfull</string>
+    <string name="password_change_unsuccesfull">Oops!! Something went wrong. Try Again.</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="prompt_otp">OTP</string>
+    <string name="submit_otp">Submit OTP</string>
+    <string name="error_invalid_otp">Invalid OTP</string>
+    <string name="add_new_med_title">Add New Medicine</string>
+    <string name="donor_name">Donor name:</string>
+    <string name="donor_phone">Donor telephone number:</string>
+    <string name="donation_date">Donation date:</string>
+
+    <string name="add_new_donor_title">Add new donor</string>
+    <string name="add_donor_button">Add donor</string>
+    <string name="choose_medicine">Choose Medicine</string>
+    <string name="choose_existing_medicine">Choose an existing medicine</string>
+    <string name="create_medicine_profile">Create a new medicine profile</string>
+    <string name="select_inventory_operation">Select an inventory operation</string>
+    <string name="update_inventory_operation">Add medicine to inventory</string>
+    <string name="make_a_box_operation">Make a box</string>
+    <string name="error_choose_date_of_expiry">Choose date of expiry</string>
+    <string name="error_choose_date_of_donation">Choose date of donation</string>
+    <string name="button_next">next</string>
+
+    <string name="choose_donor">Choose Donor</string>
+    <string name="choose_existing_donor">Choose an existing donor</string>
+    <string name="create_donor_profile">Create a new donor profile</string>
+
+    <string name="medicine_details">Medicine Details</string>
+    <string name="donor_details">Donor Details</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="choose_recdon_zone_button">Choose Recdon</string>
+    <string name="recdon_zone">Recdon Zone:</string>
+    <string name="choose_rmedicine_button">Choose Medicine</string>
+
+    <string name="choose_dest_user">Recdon Volunteer:</string>
+    <string name="none">None</string>
+    <string name="Done">Done</string>
+    <string name="box_content_edit">Edit</string>
+    <string name="box_content_delete">Delete</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="request_comment">Why is this request rejected?</string>
+    <string name="comment">Comments:</string>
+
+    <string name="choose_box">Choose An Existing Box</string>
+    <string name="create_box">Create A New Box</string>
+    <string name="error_unit_value">Unit value must be more than 0 and less than inventory value</string>
+
+    <string name="dest_zone">Destination Zone:</string>
+
+    <string name="history">History</string>
+    <string name="box_history">Box History</string>
+    <string name="request_history">Request History</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_box_title">Delete Box</string>
+    <string name="delete_box">Are you sure you want to remove this Box %s ? </string>
+    <string name="delete_boxcontent_title">Delete Medicine</string>
+    <string name="delete_boxcontent">Are you sure you want to remove this Medicine %s ?</string>
+    <string name="delete">Delete</string>
+
+    <string name="item_count">Item count</string>
+
+
+</resources>

@@ -1,0 +1,267 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="edu.uta.leanmed.activities.AddInventoryFinalPreviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/update_inventory_operation"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="154" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/colorPrimaryDark">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/medicine_details"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorWhite"/>
+
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textGenericName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/generic_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textTradeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/trade_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textMedicineType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/med_input"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textDosage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dosage"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textUnit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp"
+                        tools:text="@string/unit" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weight"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/appbar_padding_top" />
+
+                    <TextView
+                        android:id="@+id/textExpiryDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expiry"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimaryDark"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/donor_details"
+                            android:textSize="20dp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textDonorName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donor_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textDonorPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donor_phone"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:id="@+id/textDonationDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donation_date"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit_button" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
